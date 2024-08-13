@@ -45,16 +45,27 @@ and anomaly-to-normal ratios.
 
 ## Prerequisites:
 ````
+conda create -n funad python=3.9 -y
+conda activate funad
+
+conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.8 -c pytorch -c nvidia
+conda install pytorch::faiss-gpu
+
+git clone https://github.com/HY-Vision-Lab/FUNAD.git
+cd FUNAD
 pip install -r requirements.txt
 ````
 
 
 ## 🏃 How to run our code!
-To run our code, use the following command template, adjusting the hyperparameters as needed based on the scenario and dataset size.
+To train FUN-AD on [MVTec AD](https://www.mvtec.com/company/research/datasets/mvtec-ad) with 0.1 additional noise samples, run
 
-Example command:
 ````
+# without synthetic data
 python self_train_ad.py -b 32 --k_number 2 --epoch 1500 --balancing --gaussian --kl --weight 2.5 --oto_loss mae --dataset mvtec -d bottle --noise 10%
+
+# with additional 5% synthetic data
+python self_train_ad.py -b 32 --k_number 2 --epoch 1500 --balancing --gaussian --kl --weight 2.5 --oto_loss mae --dataset mvtec -d bottle --noise 10% --perlin --perin_ratio 5%
 ````
 
 
