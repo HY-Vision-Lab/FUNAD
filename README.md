@@ -47,7 +47,7 @@ and anomaly-to-normal ratios.
 Download the following datasets:
 - MVTec-AD [[Official]](https://www.mvtec.com/company/research/datasets/mvtec-ad/)
 - VisA [[Official]](https://github.com/amazon-science/spot-diff)
-- Synthetic dataset [[Our Link]](https://drive.google.com/file/d/1isdwowvxEOkGkQkz4ewVJZXZwPz6jNvA/view?usp=sharing)
+- Synthetic dataset (MVTec-AD) [[Our Link]](https://drive.google.com/file/d/1isdwowvxEOkGkQkz4ewVJZXZwPz6jNvA/view?usp=sharing)
 - DINO feature (MVTec-AD) [[Our Link]](https://drive.google.com/file/d/12WaHebolz6Z2AqXXOIjVxVx94eij3MLF/view?usp=sharing)
 
 ## Prerequisites:
