@@ -43,6 +43,12 @@ and anomaly-to-normal ratios.
 
 - a simple yet effective iterative learning-based framework for fully unsupervised anomaly detection incorporating our pseudo-labeling approach coupled with the mutual smoothness loss, achieving mostly state-of-the-art anomaly detection and localization performances under different contaminated settings of two public industrial anomaly datasets (MVTec AD and VisA).
 
+## Data preparation:
+Download the following datasets:
+- MVTec-AD [[Official]](https://www.mvtec.com/company/research/datasets/mvtec-ad/)
+- VisA [[Official]](https://github.com/amazon-science/spot-diff)
+- Synthetic dataset [[Our Link]](https://drive.google.com/file/d/1isdwowvxEOkGkQkz4ewVJZXZwPz6jNvA/view?usp=sharing)
+
 ## Prerequisites:
 ````
 conda create -n funad python=3.9 -y
