@@ -80,4 +80,4 @@ python self_train_ad.py -b 32 --k_number 2 --epoch 1500 --balancing --gaussian -
 
 ````
 ## License
-A patent application for FUN-AD has been submitted and is under review for registration. FUN-AD is licensed under the CC-BY-NC-SA-4.0 license limiting any commercial use.
+A patent application for FUN-AD has been submitted and is under review for registration. FUN-AD is licensed limiting any commercial use.
