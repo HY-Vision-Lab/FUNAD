@@ -1,6 +1,4 @@
-# FUN-AD: Fully Unsupervised Learning for Anomaly Detection with Noisy Traning Data
-
-Official Pytorch implementation of [FUN-AD: Fully Unsupervised Learning for Anomaly Detection with Noisy Traning Data] [WACV 2025].
+# [WACV 2025] FUN-AD: Fully Unsupervised Learning for Anomaly Detection with Noisy Traning Data
 
 Authors: Jiin Im, Yongho Son, Je Hyeong Hong
 
