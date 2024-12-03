@@ -1,4 +1,4 @@
-opencv-python==4.7.0.72
+opencv-python
 pandas==2.0.2
 scikit-learn
 scikit-image==0.21.0
