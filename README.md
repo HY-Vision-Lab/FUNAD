@@ -78,8 +78,14 @@ python self_train_ad.py -b 32 --k_number 2 --epoch 1500 --balancing --gaussian -
 
 
 ## Citation
-````
+```bibtex
+@article{im2024fun,
+  title={FUN-AD: Fully Unsupervised Learning for Anomaly Detection with Noisy Training Data},
+  author={Im, Jiin and Son, Yongho and Hong, Je Hyeong},
+  booktitle = {Proceedings of the IEEE/CVF winter conference on applications of computer vision (WACV)}
+  year={2025}
+}
+```
 
-````
 ## License
 A patent application for FUN-AD has been submitted and is under review for registration. FUN-AD is licensed limiting any commercial use.
