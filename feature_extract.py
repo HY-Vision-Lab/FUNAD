@@ -88,13 +88,13 @@ def main():
     feature_extractor = torch.hub.load('facebookresearch/dino:main', 'dino_vitb8')
     feature_extractor = feature_extractor.to(device)
 
-    train_set = dataset.MyDataset(dataset_path=args.data_path, dataset=args.dataset, class_name=args.subdataset, is_train=True)
+    train_set = dataset_extract.MyDataset(dataset_path=args.data_path, dataset=args.dataset, class_name=args.subdataset, is_train=True)
     train_loader = DataLoader(train_set, batch_size=1, pin_memory=True)
 
     extract_and_save_features(feature_extractor, train_loader, args.feature_path, args.subdataset, args.noise, is_train=True)
 
     if (args.dataset == 'mvtec') and (args.noise == '10%'):
-        test_set = dataset.MyDataset(dataset_path=args.data_path, dataset=args.dataset, class_name=args.subdataset, is_train=False)
+        test_set = dataset_extract.MyDataset(dataset_path=args.data_path, dataset=args.dataset, class_name=args.subdataset, is_train=False)
         test_loader = DataLoader(test_set, batch_size=1, pin_memory=True)
 
         extract_and_save_features(feature_extractor, test_loader, args.feature_path, args.subdataset, args.noise, is_train=False)
