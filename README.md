@@ -1,4 +1,4 @@
-# [WACV 2025] FUN-AD: Fully Unsupervised Learning for Anomaly Detection with Noisy Traning Data
+# [WACV 2025] FUN-AD: Fully Unsupervised Learning for Anomaly Detection with Noisy Training Data
 
 <b>Jiin Im, Yongho Son, Je Hyeong Hong</b>
 <br>[HY-Vision Lab](https://sites.google.com/view/hyvision). Hanyang University.<br>
