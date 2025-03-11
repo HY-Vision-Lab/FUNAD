@@ -1,7 +1,7 @@
 # [WACV 2025] FUN-AD: Fully Unsupervised Learning for Anomaly Detection with Noisy Training Data
 
 <b>Jiin Im, Yongho Son, Je Hyeong Hong</b>
-<br>[HY-Vision Lab](https://sites.google.com/view/hyvision). Hanyang University.<br>
+<br>[Spatial AI Lab](https://sail.hanyang.ac.kr/). Hanyang University.<br>
 
 <a href="https://arxiv.org/abs/2411.16110">
     <img src="https://img.shields.io/badge/arXiv-2407.02286-red?logo=arXiv" alt="arXiv">
